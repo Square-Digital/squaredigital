@@ -1,4 +1,4 @@
-# Squared Digital LP 📄
+# Square Digital LP 📄
 
 <br>
 <p float="left">
@@ -9,7 +9,7 @@
 <br>
 
 ## Idea 💡:
-**Squared Digital** Brand Visibility Project
+**Square Digital** Brand Visibility Project
 
 ## Running the project: 🚀
 To run and preview the project in **development mode**, you will need to follow the next steps.
