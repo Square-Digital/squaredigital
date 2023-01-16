@@ -1,0 +1,5 @@
+@import './variables.modules.scss';
+
+@mixin primaryGradient ($direction: 90deg) {
+  background: linear-gradient($direction, $primary 0%, $secondary 100%);
+}
