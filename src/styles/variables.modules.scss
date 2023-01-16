@@ -1,0 +1,15 @@
+// colors
+$primary: #E00167;
+$secondary: #E617E6;
+$tertiary: #181D31;
+$light: #FFFFFF;
+
+
+:export {
+  colors: {
+    primary: $primary;
+    secondary: $secondary;
+    tertiary: $tertiary;
+    light: $light;
+  }
+}
