@@ -4,6 +4,9 @@ $secondary: #E617E6;
 $tertiary: #181D31;
 $light: #FFFFFF;
 
+// fonts 
+$primary-typography: 'Sora', sans-serif;
+$secondary-typography: 'Pacifico', cursive;
 
 :export {
   colors: {
@@ -11,5 +14,9 @@ $light: #FFFFFF;
     secondary: $secondary;
     tertiary: $tertiary;
     light: $light;
+  };
+  fonts: {
+    primary: $primary-typography;
+    secondary: $secondary-typography;
   }
 }

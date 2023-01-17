@@ -1,7 +1,14 @@
 @import './reset.scss';
 @import './variables.modules.scss';
 
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  font-family: $primary-typography;
+}
+
 body {
   background: $tertiary;
-
 }
