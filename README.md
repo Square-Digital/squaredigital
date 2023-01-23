@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Square Digital LP 📄
 
-## Getting Started
+<br>
+<p float="left">
+ <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white">
+ <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
+ <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white">
+</p>
+<br>
 
-First, run the development server:
+## Idea 💡:
+**Square Digital** Brand Visibility Project
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Running the project: 🚀
+To run and preview the project in **development mode**, you will need to follow the next steps.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Prerequisites:
+Below is a list of the necessary tools for the project to work.
+- **NodeJS version 16** <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/nodejs.svg" height="20" /><br>
+  [<ins>Instalation guide NodeJS</ins>](https://nodejs.org/en/).
+- **Yarn**<br>
+[<ins>Instalation guide Yarn</ins>](https://yarnpkg.com/).
+  
+### Installing dependencies:
+Run the command to install project dependencies.
+   ```sh
+   yarn install
+   ```  
+  
+### Running the project:
+The scripts below run the project build.
+  ```sh
+   yarn dev
+   ```
+   ###### Command to compile and minify the build in dev mode
+   
+   <br>
+   
+   ```sh
+   yarn lint
+   ```
+   ###### Command to validate the project types
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
+## References link: 🌐
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+***Conventional Commits:***<br>
+[<ins>Conventional commits docs</ins>](https://www.conventionalcommits.org/en/v1.0.0/)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+***Next Js:***<br>
+[<ins>Next docs</ins>](https://nextjs.org/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+## License
+This project is licensed under the [Apache 2.0] license - see the LICENSE.md file for details
