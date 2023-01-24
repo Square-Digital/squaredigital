@@ -1,22 +1,13 @@
-// colors
-$primary: #E00167;
-$secondary: #E617E6;
-$tertiary: #181D31;
-$light: #FFFFFF;
+:root {
+  --white-50: #fff;
+  --white-100: #e5f1ff;
 
-// fonts 
-$primary-typography: 'Sora', sans-serif;
-$secondary-typography: 'Pacifico', cursive;
+  --pink-50: #eb455f;
+  --purple-50: #e016e0;
 
-:export {
-  colors: {
-    primary: $primary;
-    secondary: $secondary;
-    tertiary: $tertiary;
-    light: $light;
-  };
-  fonts: {
-    primary: $primary-typography;
-    secondary: $secondary-typography;
-  }
+  --blue-50: #bad7e9;
+  --blue-100: #2b3467;
+
+  --black-50: #3d404c;
+  --black-100: #151419;
 }

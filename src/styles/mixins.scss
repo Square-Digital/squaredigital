@@ -1,5 +1,9 @@
 @import './variables.modules.scss';
 
-@mixin primaryGradient ($direction: 90deg) {
-  background: linear-gradient($direction, $primary 0%, $secondary 100%);
+@mixin primaryGradient($direction: 90deg) {
+  background: linear-gradient(
+    $direction,
+    var(--purple-50) 0%,
+    var(--pink-50) 100%
+  );
 }
