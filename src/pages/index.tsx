@@ -2,6 +2,8 @@ import React from 'react'
 
 import Head from 'next/head'
 
+import { Header } from '@/components'
+
 export default function Home() {
   return (
     <>
@@ -9,7 +11,7 @@ export default function Home() {
         <title>Create Next App</title>
       </Head>
       <main>
-        <h1>teste</h1>
+        <Header />
       </main>
     </>
   )

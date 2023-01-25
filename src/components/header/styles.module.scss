@@ -1,0 +1,18 @@
+.header {
+  background-color: var(--blue-100-opacity-80);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .link {
+    font-size: 22px;
+  }
+
+}
