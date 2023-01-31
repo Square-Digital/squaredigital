@@ -4,5 +4,55 @@
   background-size: contain;
   background-position: 0 62px;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
+  position: relative;
+
+  .squareIlustration {
+    position: absolute;
+    top: 185px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    width: 100%;
+    padding-top: 230px;
+    gap: 64px;
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      place-items: center;
+
+      h2 {
+        font-family: 'Pacifico';
+        font-weight: 400;
+        font-size: 64px;
+      }
+    }
+
+    .description {
+      display: flex;
+      gap: 175px;
+      align-items: center;
+
+      .paragraphs {
+        h3 {
+          font-weight: 600;
+          font-size: 32px;
+          margin: 32px 0 16px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  .ellipseIlustration {
+    position: absolute;
+    bottom: -580px;
+    right: 0px;
+  }
 }
