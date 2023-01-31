@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Head from 'next/head'
+import { Hero } from '@/components/hero'
 
 export default function Home() {
   return (
@@ -8,9 +9,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
       </Head>
-      <main>
-        <h1>teste</h1>
-      </main>
+      <Hero />
     </>
   )
 }
