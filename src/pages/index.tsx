@@ -2,7 +2,7 @@ import React from 'react'
 
 import Head from 'next/head'
 
-import { Header } from '@/components'
+import { Header, SecondSection } from '@/components'
 
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <Header />
+        <SecondSection />
       </main>
     </>
   )
